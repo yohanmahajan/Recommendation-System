@@ -13,4 +13,6 @@ In Item - Item Collaborative filtering, we try to find items (in this scenario, 
 
 User - User Collaborative filtering, we try to find users that are similar to the user under consideration, to whom we want to make recommendations. These similarities are found on the basis of buying pattern or like in our case, ratings given to a product using correlation. Then the user is recommended the items are most liked by the users that are very similar to him/her.
 
+In Content based filtering, items are recommended to a user based of the categories or genres (in our case) of the items liked by user in the past.
+
 Here, I have made a few assumptions. The first assumption is that the movies liked by a user are rated more than 4 on a scale of 5 and a correlation value more than 0.95 indicates high similarity. 
